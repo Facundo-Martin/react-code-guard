@@ -1,0 +1,34 @@
+# Ignore all files in node_modules
+
+node_modules/
+
+<!-- Ignore build files -->
+
+build
+
+# Ignore all distribution directories
+
+dist/
+
+# Ignore all log files and directories
+
+logs/
+\*.log
+
+# Ignore editor directories and files
+
+.vscode/
+.idea/
+
+# Ignore build directories and files
+
+build/
+
+# Ignore configuration files
+
+.eslintrc
+.prettierrc
+
+next.config.js
+tailwind.config.js
+postcss.config.js

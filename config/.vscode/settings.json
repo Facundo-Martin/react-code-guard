@@ -1,0 +1,13 @@
+// settings.json
+{
+  // sets prettier as formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // run formatter on save and/or paste
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.format": true,
+    "source.organizeImports": true
+  }
+}
